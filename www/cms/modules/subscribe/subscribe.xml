@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<module type="module">
+	<name>Рассылка</name>
+	<shortname>Рассылка</shortname>
+	<author>OBS</author>
+	<creationDate>2010-02-24</creationDate>
+	<copyright>(C) OBS. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>pavlenko.evgeniy@obs.biz.ua</authorEmail>
+	<authorUrl>www.obs.biz.ua</authorUrl>
+	<version>1.0.0</version>
+	<group>subscribe</group>
+	<groupname>Рассылка</groupname>
+	<groupicon16>icon-16-subscribe</groupicon16>
+	<groupicon48>icon-48-subscribe</groupicon48>
+	<icon16>icon-16-subscribe</icon16>
+	<icon48>icon-48-subscribe</icon48>
+	<ordering>90</ordering>
+	<acesslevel>20</acesslevel>
+</module>
