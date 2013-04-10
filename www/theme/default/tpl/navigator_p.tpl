@@ -1,0 +1,1 @@
+<a href="javascript:page({#n#});">{#n#}</a>

@@ -1,0 +1,1 @@
+<div class="ststus ststus_error"><?php echo $this->message; ?></div>

@@ -1,0 +1,2 @@
+[10-Jul-2011 19:57:25] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so' - /usr/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[20-Jul-2011 11:27:30] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so' - /usr/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so: cannot open shared object file: No such file or directory in Unknown on line 0

@@ -1,0 +1,99 @@
+.lightbox-overlay {
+	position:fixed;
+	top: 0;
+	left: 0;
+	z-index: 9000;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+}
+.lightbox-body {
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:10000;
+	width:100%;
+}
+.lightbox-image-container {
+	position:relative;
+	background:url(img/container-bg.png);
+	border:1px solid #aaa;
+	margin:50px auto 0;
+}
+.lightbox-image-container img {
+	border-width:10px;
+}
+.lightbox-image-nav {
+	position:absolute;
+	top:0;
+	height:100%;
+	width:100%;
+}
+.lightbox-image-closeLink {
+	position:absolute;
+	height:32px;
+	width:32px;
+	right:-10px;
+	top:-10px;
+	background-image:url(img/close.png);
+	background-position:center;
+	background-repeat:no-repeat;
+}
+.lightbox-image-prevLink,
+.lightbox-image-nextLink {
+	position:absolute;
+	display:block;
+	top:25%;
+	height:50%;
+	width:32px;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+.lightbox-image-prevLink { left:5px; }
+.lightbox-image-nextLink { right:5px; }
+.lightbox-image-prevLink:hover { background-image:url(img/prev.png); }
+.lightbox-image-nextLink:hover { background-image:url(img/next.png); }
+.lightbox-image-waitLink {
+	position:absolute;
+	top:0;
+	width:100%;
+	height:100%;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-image:url(img/wait.png);	
+}
+.lightbox-image-waitIcon {
+	position:absolute;
+	top:0;
+	width:100%;
+	height:100%;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-image:url(img/wait.gif);	
+}
+.lightbox-image-data {
+	background:#fff;
+	position:absolute;
+	top:100%;
+	left:-1px;
+	width:100%;
+	border-width:0 1px;
+	border-style:solid;
+	border-color:#fff;
+}
+.lightbox-image-caption {
+	padding:5px;
+	font-size:12px;
+}
+.lightbox-image-number {
+	position:absolute;
+	right:10px;
+	top:-40px;
+	height:25px;
+	padding:5px 15px 0;
+	color:#fff;
+	font-size:14px;
+	font-weight:bold;
+	font-family:Tahoma;
+	background-image:url(img/container-bg.png);
+}

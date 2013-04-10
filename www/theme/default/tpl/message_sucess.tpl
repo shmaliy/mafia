@@ -1,0 +1,1 @@
+<div class="ststus ststus_sucess"><?php echo $this->message; ?></div>
